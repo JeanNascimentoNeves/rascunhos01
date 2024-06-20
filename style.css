@@ -1,0 +1,166 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+/* "Outfit", sans-serif; */
+/* "Young Serif", serif; */
+
+:root{
+    ---cordosh2:#854632 ;
+    ---cordoh3inicio:#7b284f;
+    ---White: #ffffff;
+    ---cordomain: #fff5fa;
+    ---cordefundo: #f3e6d8;
+    ---fundodoh3: #FFF7FC;
+    ---cordaslista: #5f574e;
+    ---cordotitulo: #302d2c;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 16px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    max-width: 800px;
+    min-width: 375px;
+    margin: auto;
+    background:var(---cordefundo);
+    font-family:"Outfit", sans-serif; ;
+
+}
+main{
+    background:var(---cordomain) ;
+    
+
+}
+.div-principal{
+    background: var(---cordomain);
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border-radius: 20px;
+    
+    
+
+    
+
+}
+.foto-omelete{
+    width:99%;
+    border-radius: 20px;
+    
+
+}
+.man-principal{
+    border-radius: 20px;
+}
+.titulo-principal{
+    font-family:"Young Serif", serif;
+     padding-left: 40px;
+    padding-bottom: 30px;
+    font-weight: 400;
+    
+}
+.paragrafo-principal{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;   
+}
+.div-preparo{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+    background: #fbeff6;
+    gap: 20px;
+    border-radius: 20px;
+}
+.div-preparo > h3{
+    color: var(---cordoh3inicio);
+}
+.dor{
+    padding: 5%;
+    
+    
+}
+ul li::marker{
+    color: var(---cordosh2);
+
+}
+.pro::marker{
+    color: var(---cordoh3inicio);
+}
+ul li::before { 
+    margin-right: 20px;
+}
+h2{   
+    font-family:"Young Serif", serif; ;
+    color:var(---cordosh2);
+    padding-left: 40px;
+    padding-bottom: 30px;
+    font-size: 26px;
+}
+ul{
+    padding-left: 40px;
+padding-bottom: 30px;
+}
+p{padding-left: 40px;
+    padding-bottom: 30px;
+    
+}
+
+.Instructions{
+    border-top: 0.4px solid #d2c7bf;
+    padding-top: 30px;
+}
+.Nutrition{
+    border-top: 0.4px solid 
+    #d2c7bf;
+    padding-top: 30px;
+}
+.div-final{
+    display: flex;
+    justify-content: space-around;
+    flex-direction:column
+     
+}
+.produto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.Calories{
+    color: var(---cordosh2);
+}
+.nomelindo{
+    text-align: center;
+    padding: 10px;
+    color: var(---cordosh2);
+    
+    
+}
+.dividir{
+    padding-left: 40px;
+  padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.numeros::marker{
+    color: var(---cordosh2);  
+}
+.sim{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+
